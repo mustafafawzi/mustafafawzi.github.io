@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana, sans-serif;
+    font-size: 1.1em;
+    background-color: lightslategray;
+    color: darkblue;
+}
+
+h1{
+    font-variant: small-caps;
+    background-color: red;
+}
+
+a:hover{
+    border-style: dotted;
+    border-width: 10px ;
+}
+
+.stippel{
+    border-width: 1px;
+    border-style: dotted;
+}
