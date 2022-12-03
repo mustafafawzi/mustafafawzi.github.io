@@ -1,0 +1,140 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    margin: auto;
+    padding: 0;
+    background: #e6e6e6 url("fotos/pagebackground.png") repeat-y center;
+}
+
+.top{
+    background-image: url("fotos/bgsky3.jpg");
+    text-align: center;
+    color: darkblue;
+}
+
+.top img{
+    float: right;
+    margin: -150px 70px 0 170px;
+    position: absolute;
+    z-index: 2;
+}
+
+.tietel2{
+    font-size: 240%;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.top p:first-child{
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.news{
+    width: 250px;
+    background-color: #dddddd;
+    color: #666666;
+    float: right;
+    border: 1px solid gray;
+}
+
+.news h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+.news p{
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+article{
+    width: 700px;
+    float: left;
+}
+
+.introdcution{
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.logo {
+    float: left;
+    padding: 120px 20px 85px 20px;
+    margin: -80px 10px 0 0;
+}
+
+span {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.gallery {
+    background-color: #999999;
+}
+
+.gallery::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.gallery div {
+    float: left;
+    width: 33.33%;
+}
+
+.gallery div img {
+    height: 180px;
+    width: 180px;
+    padding: 10px;
+    background-color: white;
+    border: 1px dashed;
+    margin: 20px;
+}
+
+.bottom {
+    width: 960px;
+    background-color: #666666;
+    color: white;
+}
+
+.b1 {
+    float: left;
+    margin-left: 120px;
+}
+
+.b2 {
+    margin-left: 120px;
+    float: left;
+}
+
+.bottom a:hover {
+    color: red;
+}
+
+.bottom a:link {
+    color: white;
+}
+.botom a:visited {
+    color: white;
+}
+
+
+footer {
+    text-align: center;
+    color: black;
+    background-color: white;
+    clear: both;
+}
